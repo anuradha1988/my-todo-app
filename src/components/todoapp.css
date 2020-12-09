@@ -1,0 +1,70 @@
+.todo {
+  align-self: center;
+  color: white;
+}
+
+
+
+.todo input {
+  background: transparent;
+  border: none;
+  color: black;
+  border-bottom: 2px solid black;
+  min-width: 400px;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.todo input::placeholder {
+  color: black;
+  font-size: 1.3rem;
+}
+
+
+
+.todo .add-btn {
+  padding: 10px;
+  border-radius: 30%;
+  color: black;
+  outline: none;
+  background-color: green;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+
+
+.todo ul {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.todo ul li {
+  list-style: none;
+  margin-bottom: 5px;
+margin-top: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  max-width: 400px;
+  background-color: rgb(236, 236, 236, 0.6);
+  
+  color: black;
+}
+.todo ul li .delete {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
